@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Insurance</title>
+    <style>
+        div {
+          width: 100%;
+          text-align: center;
+          background-color: #0666a3
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="/invest" method="POST">
+        <label >Age</label>
+        <input type="value" name="age" required ><br>
+
+        <label >Gender</label>
+        <input type="value" name="sex" required ><br>
+
+        <label >Body Mass Index </label>
+        <input type="value" name="bmi" required ><br>
+
+        <label >how many children do you have?</label>
+        <input type="value" name="children" required ><br>
+
+        <label >Do you smoke?</label>
+        <input type="value" name="smoker" required ><br>
+
+        <label >Region</label>
+        <input type="value" name="region" required ><br>
+
+
+        <input type="submit" >
+
+
+
+
+
+
+
+
+    </form>
+    </div>
+    {{ output }}
+    
+</body>
+</html>
